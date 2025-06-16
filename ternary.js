@@ -1,6 +1,7 @@
 // Ternary operator
-//  condition : if condition is true this part will execute ? else this will execute
+//  condition ? if condition is true this part will execute : else this will execute
 //  let type = (age >= 18) ? 'adult' : 'child'
-let age = 16;
-let type = (age >= 18) ? 'adult' : 'child'
-console.log(type)
+let age = 24;
+// let type = (age >= 18) ? 'adult' : 'child'
+let type = (age >= 25) ? 'YoungMan' : (age >=18) ? 'Adult' : 'Child'
+console.log(type);
