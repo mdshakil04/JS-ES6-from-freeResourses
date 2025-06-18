@@ -4,4 +4,4 @@ let targetedValue = numbers.find(function(currentValue){
     return currentValue > 8;
 })
 // console.log(numbers)
-console.log(targetedValue)
+// console.log(targetedValue)
