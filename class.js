@@ -18,4 +18,4 @@ class AnotherPerson extends Person{
     }
 }
 const person2 = new AnotherPerson('Zahid', 36, 'Gardening', 'Unemployed', 'Programmer', 'Overcome Lazyness');
-console.log(person2)
+// console.log(person2)
