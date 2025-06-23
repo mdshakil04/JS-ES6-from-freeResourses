@@ -5,3 +5,17 @@ let targetedValue = numbers.find(function(currentValue){
 })
 // console.log(numbers)
 // console.log(targetedValue)
+function evenNumbersSum(nums){
+    // console.log("Function got his parametars",nums)
+    let sum = 0;
+    for(const num of nums){
+        // console.log(num)
+        if(num % 2 === 0){
+            // console.log(num)
+            sum = sum + num;
+            // console.log(sum)
+        }
+    }return sum;
+}
+const result = evenNumbersSum(numbers)
+console.log(result)
